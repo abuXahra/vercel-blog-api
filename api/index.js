@@ -20,7 +20,7 @@ const shareRoute = require("./routes/sharePosts");
 const port = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://newsblog-244u.onrender.com"], //https://pblog-lno1.onrender.com
+  origin: ["http://localhost:3000", "https://newsblog-nu.vercel.app/"], //https://pblog-lno1.onrender.com
   // methods: ["POST", "GET"],
   credentials: true,
 };
